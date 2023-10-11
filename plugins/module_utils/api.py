@@ -85,7 +85,7 @@ NIOS_PROVIDER_SPEC = {
     'http_pool_maxsize': dict(type='int', default=10),
     'max_retries': dict(type='int', default=3, fallback=(env_fallback, ['INFOBLOX_MAX_RETRIES'])),
     'wapi_version': dict(default='2.9', fallback=(env_fallback, ['INFOBLOX_WAP_VERSION'])),
-    'max_results': dict(type='int', default=1000, fallback=(env_fallback, ['INFOBLOX_MAX_RETRIES']))
+    'max_results': dict(type='int', default=1000, fallback=(env_fallback, ['INFOBLOX_MAX_RESULTS']))
 }
 
 
